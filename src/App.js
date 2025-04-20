@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar/Navbar.jsx';
+import Hero from './components/Hero/Hero.jsx';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+      {/* You can add more components here as you build your website */}
     </div>
   );
 }
 
 export default App;
+
