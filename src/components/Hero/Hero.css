@@ -1,6 +1,6 @@
 .hero-image {
     /* Use linear-gradient to add a darken background effect to the image */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fmastersofscale.com%2Fpeople%2Fpresident-barack-obama%2F&psig=AOvVaw2h15h-vAK7k2IbRi0R-_Sp&ust=1745200307017000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjXxPS_5YwDFQAAAAAdAAAAABAE);
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.latimes.com%2Fsports%2Flakers%2Fstory%2F2025-04-11%2Flebron-james-injury-lakers-clinch-third-seed-west-rockets&psig=AOvVaw3acyvgp7aW4pCedoqsFuzA&ust=1745216195134000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJjK7oz75YwDFQAAAAAdAAAAABAE");
     height: 80vh; /* Set a specific height */
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(255, 255, 255);
     width: 80%;
     max-width: 800px;
   }
