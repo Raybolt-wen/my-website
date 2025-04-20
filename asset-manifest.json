@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MY-WEBSITE/static/css/main.9d574b24.css",
-    "main.js": "/MY-WEBSITE/static/js/main.a5e4bdd2.js",
-    "static/js/453.195b869a.chunk.js": "/MY-WEBSITE/static/js/453.195b869a.chunk.js",
-    "static/media/Lebron.jpg": "/MY-WEBSITE/static/media/Lebron.f5afa0d16af045d1bf39.jpg",
-    "index.html": "/MY-WEBSITE/index.html",
-    "main.9d574b24.css.map": "/MY-WEBSITE/static/css/main.9d574b24.css.map",
-    "main.a5e4bdd2.js.map": "/MY-WEBSITE/static/js/main.a5e4bdd2.js.map",
-    "453.195b869a.chunk.js.map": "/MY-WEBSITE/static/js/453.195b869a.chunk.js.map"
+    "main.css": "/my-website/static/css/main.8053e4e2.css",
+    "main.js": "/my-website/static/js/main.752398ff.js",
+    "static/js/453.195b869a.chunk.js": "/my-website/static/js/453.195b869a.chunk.js",
+    "static/media/Lebron.jpg": "/my-website/static/media/Lebron.f5afa0d16af045d1bf39.jpg",
+    "index.html": "/my-website/index.html",
+    "main.8053e4e2.css.map": "/my-website/static/css/main.8053e4e2.css.map",
+    "main.752398ff.js.map": "/my-website/static/js/main.752398ff.js.map",
+    "453.195b869a.chunk.js.map": "/my-website/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d574b24.css",
-    "static/js/main.a5e4bdd2.js"
+    "static/css/main.8053e4e2.css",
+    "static/js/main.752398ff.js"
   ]
 }
