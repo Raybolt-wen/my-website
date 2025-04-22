@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(187, 115, 115);
 }
 
 .App-link {
@@ -40,7 +40,7 @@
   position: relative;
   height: 100vh; /* Full viewport height */
   width: 100%;
-  background-image: url('/Users/ray/Documents/Projects/my-website/Lebron.jpg');
+  background-image: url('/public/photos/Lebron.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
