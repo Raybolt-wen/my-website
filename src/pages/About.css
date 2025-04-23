@@ -4,5 +4,6 @@
     align-items: center;
     background-color: #1f1f1f !important;
     color: #1f1f1f !important;
-    padding: 1rem;
+    min-height: 100vh; /* Full viewport height */
+    padding: 2rem;
   }

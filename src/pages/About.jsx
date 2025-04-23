@@ -12,14 +12,14 @@ function About() {
     right: 520,
     width: 350, 
     top: 450, 
-    color: 'black',
+    color: 'white',
     margin: 10,        
     font: 'Times New Roman',
     textAlign: 'center', 
     fontFamily: 'Times New Roman',
     padding: 15.1,
-    border: 'black',
-    borderColor: 'black',
+    border: 'solid',
+    borderColor: 'white',
     textDecoration: 'none'
   }}
   > 
