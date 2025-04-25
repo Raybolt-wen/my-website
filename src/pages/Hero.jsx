@@ -21,7 +21,7 @@ function Hero() {
             }}
             whileHover={{
               backgroundColor: "rgba(0, 47, 255, 0.1)",
-              transition: { duration: 0.3 }
+              transition: { duration: 0.15 }
             }}
           >
             <img 
