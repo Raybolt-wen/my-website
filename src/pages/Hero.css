@@ -18,10 +18,16 @@
   color: 'white';
   margin: 10;        
   font: 'Times New Roman';
-  textAlign: 'center';
-  fontFamily: 'Times New Roman';
   padding: 15.1;
   border: 'solid';
   borderColor: 'white';
   textDecoration: 'none';
+}
+
+.gallery-link {
+  position: relative;
+  justify-content: center;
+  align-items: left;
+  transform: translate(50%, 50%);
+
 }

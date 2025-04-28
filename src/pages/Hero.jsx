@@ -4,7 +4,6 @@ import './Hero.css';
 import { motion } from 'framer-motion';
 import AnimatedWidget from '/Users/ray/Documents/Projects/my-website/my-website/src/components/AnimatedWidget';
 function Hero() {
-  const audioUrl = process.env.PUBLIC_URL + '/music/Lebron.mp3';
   return (
     <>
     <div className="heroContainer">
@@ -91,12 +90,32 @@ function Hero() {
                         Get to know me
                       </Link>
          </AnimatedWidget>
-                </div>
-        <div>
-          <audio controls>
-            <source src={audioUrl} type="audio/mpeg" />
-          </audio>
+        <div className='gallery-link'>
+        <AnimatedWidget
+              style={{ 
+                width: 350, 
+                color: 'white',
+                margin: 10,        
+                font: 'Times New Roman',
+                textAlign: 'center', 
+                fontFamily: 'Times New Roman',
+                padding: 15.1,
+                border: 'solid',
+                borderColor: 'white',
+                textDecoration: 'none'
+              }}
+            >
+                <Link to = "/gallery" 
+                  style = {{
+                    color: 'inherit',
+                    textDecoration: 'none',
+                    display: 'block'
+                  }} > 
+                        Couple of photos
+                      </Link>
+         </AnimatedWidget>
         </div>
+                </div>
       </div>
     </>
   );

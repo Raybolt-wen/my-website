@@ -7,3 +7,19 @@
     min-height: 100vh; /* Full viewport height */
     padding: 2rem;
   }
+  .title-text{
+    color: white;
+    min-height: 20vh;
+  }
+  .main-text {
+    transform: translate(50%, -40%);
+    width: 50%;
+    color: white;
+    font-family: 'Comic Sans MS';
+  }
+  .audio-display {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
