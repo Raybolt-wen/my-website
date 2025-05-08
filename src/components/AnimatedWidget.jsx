@@ -1,9 +1,10 @@
 // src/components/AnimatedWidget.jsx
 import { motion } from 'framer-motion';
 
-export default function AnimatedWidget({ children, style }) {
+export default function AnimatedWidget({ children, style, className }) {
   return (
     <motion.div
+      className={className}
       initial={false}
       whileHover={{
         scale: 1.02,
@@ -11,6 +12,10 @@ export default function AnimatedWidget({ children, style }) {
         transition: { type: 'spring', stiffness: 300 }
       }}
       style={{
+        backgroundColor: 'transparent',
+        border: 'solid',
+        color: 'white',
+        borderColor: 'white',
         ...style
       }}
     >

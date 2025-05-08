@@ -1,33 +1,116 @@
 .hero{
   background-color: #000 !important;
-  color: #000 !important;
 }
 /* Hero.module.css */
 .heroContainer {
   background-color: #1f1f1f; /* Dark gray */
   min-height: 100vh; /* Full viewport height */
   padding: 2rem;
-}
-
-.large-text {
-  font-size: 3rem;
-  position: 'absolute';
-  right: 520px;
-  width: 350px; 
-  top: 450px;               
-  color: 'white';
-  margin: 10;        
-  font: 'Times New Roman';
-  padding: 15.1;
-  border: 'solid';
-  borderColor: 'white';
-  textDecoration: 'none';
-}
-
-.gallery-link {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: left;
-  transform: translate(50%, 50%);
+  align-items: center;
+}
 
+.social-links {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  z-index: 2;
+}
+
+.social-icon-linkdin {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  position: fixed;
+  top: 40%;
+  left: 100%;
+  transform: translate(-110%, 50%);
+}
+
+.social-icon-github {
+  border: 2px solid white;
+  position: fixed;
+  top: 20%;
+  left: 100%;
+  transform: translate(-110%, 50%);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+.social-image {
+  width: clamp(100px, 10vw, 180px);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.main-widget-about{
+  border: 10px;
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
+  color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  position: fixed;
+  top: 35%;
+  left: 35%;
+}
+
+
+.main-widget-photos{
+  border: 10px;
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
+  color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 35%;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-family: 'Times New Roman', serif;
+  font-size: clamp(2rem, 2vw, 1.5rem);
+}
+
+
+@media (max-width: 768px) {
+  .social-links {
+    position: static;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .content-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .social-image {
+    width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-container {
+    padding: 1rem;
+  }
+  
+  .social-links {
+    gap: 1rem;
+  }
 }
