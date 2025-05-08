@@ -8,17 +8,28 @@
     align-items: center;
   }
 
+  .title-text{
+    position: absolute;
+    top: -5%;
+    width: auto;
+    color: white;
+    line-height: 1.1;
+    font-size: 3rem;
+
+    margin: 2rem 0;
+    font-weight: 800;
+    font-family: 'Comic Sans MS';
+  }
+
   /* CSS Styling */
   .slideshow-container {
     position: absolute;
-    width: 60%; /* Adjust as needed */
-    top: 20%;
+    width: 70%; /* Adjust as needed */
+    top: 10%;
     max-width: 1200px;
     margin: 6rem;
     aspect-ratio: 16/9; /* Maintain aspect ratio */
     background: transparent;
-    border: solid;
-    border-color: aliceblue;
   }
   
   .slide img {
@@ -38,9 +49,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  /* Add to CSS */
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: black;
   }
   
+  .slide {
+    position: relative;
+    height: 70vh;
+  }
+
   .slide {
     position: absolute;
     width: 100%;
