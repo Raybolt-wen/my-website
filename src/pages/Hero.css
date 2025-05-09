@@ -1,15 +1,26 @@
-.hero{
-  background-color: #000 !important;
-}
 /* Hero.module.css */
 .heroContainer {
-  background-color: #1f1f1f; /* Dark gray */
-  min-height: 100vh; /* Full viewport height */
-  padding: 2rem;
+  background-color: #1f1f1f;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.title-text-hero{
+  position: absolute;
+  top: 0%;
+  right: -30%;
+  width: 100%;
+  color: white;
+  line-height: 1.1;
+  font-size: 9rem;
+  margin: 2rem 0;
+  font-weight: 800; 
+  font-family: 'Times New Roman', serif;
 }
 
 .social-links {
@@ -37,6 +48,26 @@
   position: fixed;
   top: 20%;
   left: 100%;
+  transform: translate(-110%, 50%);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+.social-icon-Twitter {
+  border: 2px solid white;
+  position: fixed;
+  top: 40%;
+  right: 75%;
+  transform: translate(-110%, 50%);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+.social-icon-spotify {
+  border: 2px solid white;
+  position: fixed;
+  top: 20%;
+  right: 75%;
   transform: translate(-110%, 50%);
   border-radius: 8px;
   padding: 8px;
@@ -80,9 +111,24 @@
   left: 35%;
 }
 
+
+.main-widget-resume{
+  border: 10px;
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
+  color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  position: fixed;
+  top: 65%;
+  left: 35%;
+}
+
 .nav-link {
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
   display: block;
   font-family: 'Times New Roman', serif;
   font-size: clamp(2rem, 2vw, 1.5rem);
