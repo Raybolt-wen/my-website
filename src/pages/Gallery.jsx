@@ -10,7 +10,6 @@ function Gallery(){
   const slides = useMemo(() => [
     { id: 1, src: 'inAir.webp'},
     { id: 2, src: 'manifest.jpg' },
-    { id: 12, src: 'SingingNit.mp4' },
     { id: 3, src: 'inAir2.jpg' },
     { id: 4, src: 'LowKick.jpg' },
     { id: 5, src: 'PromDrink.jpg' },
@@ -19,7 +18,8 @@ function Gallery(){
     { id: 8, src: 'ballinFace.jpg' },
     { id: 9, src: 'lottery.jpg' },
     { id: 10, src: 'marcoux.jpg' },
-    { id: 11, src: 'drinkinInChina.jpg' }
+    { id: 11, src: 'drinkinInChina.jpg' },
+    { id: 12, src: 'SingingNit.mp4' },
   ], []);
 
   const changeSlide = useCallback((n) => {
